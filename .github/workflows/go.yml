@@ -5,7 +5,7 @@ name: Go
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "*" ]
   pull_request:
     branches: [ "main" ]
 
@@ -26,3 +26,11 @@ jobs:
 
     - name: Test
       run: go test -v ./...
+      
+    - name: ls
+      run: ls -a
+      
+#     - uses: actions/upload-artifact@v3
+#       with:
+#         name: my-artifact
+#         path: wooddy
