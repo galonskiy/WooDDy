@@ -1,7 +1,7 @@
 package main
 
-import "wooddy/cmd"
+import "wooddy/cmd/wooddy"
 
 func main() {
-	cmd.Execute()
+	wooddy.Execute()
 }

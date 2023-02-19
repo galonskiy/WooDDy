@@ -1,4 +1,4 @@
-package cmd
+package md2bash
 
 import (
 	"reflect"
